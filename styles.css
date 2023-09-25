@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Aeonik;
+    src: url("assets/fonts/AeonikTRIAL-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: Aeonik;
+}
+
+.vw-100 .w-75 ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.p-4 div .btn {
+    width: 150px;
+}
+
+.cart-logo {
+    width: 105px;
+}
