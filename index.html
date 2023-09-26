@@ -7,31 +7,58 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<body>
-    <section class="h-100 bg-light">
-        <div class="d-flex">
-            <nav class="p-4 d-flex vw-100 align-items-center">
-                <div class="logo">
-                    <img src="assets/logo/logo.png" alt="">
+<body class="d-flex flex-column flex-wrap">
+<section id="home" class="h-auto">
+    <div class="d-flex bg-light">
+        <nav class="p-4 d-flex flex-nowrap w-100 align-items-center">
+            <div class="logo d-flex justify-content-center">
+                <img src="assets/logo/logo.png" alt="">
+            </div>
+            <div class="w-75">
+                <ul class="list-group d-flex flex-row justify-content-center">
+                    <li>Why RBS</li>
+                    <li>FAQS</li>
+                </ul>
+            </div>
+            <div class="nav-button d-flex justify-content-center">
+                <a class="btn btn-dark btn-lg" href="">BUY RBS</a>
+            </div>
+            <div class="cart-logo d-flex justify-content-center">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="dark" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                    </svg> 
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="container-xxl px-5 h-auto">
+        <div class="container-background">
+            <div class="background rounded-5 w-auto">
+                <div class="container-h1 d-flex flex-column">
+                    <h1>
+                        Sleep Better, <br>
+                        Boost Energy, <br>
+                        Embrace Wellness
+                    </h1>
+                    <p class="w-50">Become healthier, happier, and more active with the World's First Circadian Health Wearable.</p>
+                    <div class="w-50 my-5">
+                        <a class="btn btn-dark btn-lg c-btn w-auto" href="#">BUY RBS</a>
+                    </div>
                 </div>
-                <div class="w-75">
-                    <ul class="list-group d-flex flex-row justify-content-center gap-5">
-                        <li>Why RBS</li>
-                        <li>FAQS</li>
-                    </ul>
-                </div>
-                <div class="w-25 d-flex justify-content-center">
-                    <a class="btn btn-dark btn-lg" href="">BUY RBS</a>
-                </div>
-                <div class="cart-logo">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="dark" class="bi bi-cart2" viewBox="0 0 16 16">
-                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                        </svg> 
-                    </a>
-                </div>
-            </nav>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<section id="m-a">
+    <div class="container w-auto text-center my-5">
+        <h1>Meet RBS</h1>
+        <p>Achieve your health and wellness goals by using your own biology and the <span>power of circadian light therapy.</span></p>
+        <div>
+            <a class="btn btn-dark btn-lg" href="#">LEARN MORE → </a>
+        </div>
+    </div>
+</section>
 </body>
-</html>
+</html
