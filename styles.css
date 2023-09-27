@@ -7,6 +7,10 @@
     font-family: Aeonik;
 }
 
+#home .position-fixed {
+    background-color: white;
+}
+
 .d-flex .d-flex .logo {
     width: 20%;
     height: 50px;
@@ -40,8 +44,12 @@
     width: 96vw;
 }
 
+.container-xxl {
+    margin-top: 85px;
+}
+
 .container-xxl .container-background {
-    height: 570px;
+    height: auto;
 }
 
 .container-xxl .background {
@@ -69,21 +77,96 @@
     min-width: 25%;
 }
 
-#m-a {
-    height: 50vh;
+#m-r {
+    min-height: 200px;
 }
 
-#m-a .container h1 {
+#m-r .container h1 {
     font-size: 5rem;
 }
 
-#m-a .container p {
+#m-r .container p {
     font-size: 2.6rem;
 }
 
-#m-a .container p span {
+#m-r .container p span {
     background: linear-gradient(270deg, #C7E4CC 14.58%, #FFCD1D 54.69%, #FB8B08 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+#m-r .container img {
+    width: 80vw;
+    margin-top: 50px;
+}
+
+#benefits {
+    padding: 6% 0 6% 0;
+    background-color: #f3f3f3;
+}
+
+#benefits .benefits-div-h1 {
+    padding: 0% 15% 0% 15%;
+    margin: 40px 0px 40px 0px;
+}
+
+#benefits .benefits-div-h1 h1 {
+    font-size: 4rem;
+}
+
+#benefits .tile {
+    min-height: 390px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-image: url(https://goayo.com/wp-content/uploads/2022/09/ayo-home-sleep-bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.1);
+    width: 370px;
+}
+
+#benefits .tile2 {
+    min-height: 390px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-color: var(--e-global-color-ad4e538);
+    background-image: url(https://goayo.com/wp-content/uploads/2022/09/ayo-home-low-energy-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+    width: 370px;
+}
+
+#benefits .tile .tile-div-h1,
+#benefits .tile2 .tile-div-h1 {
+    margin-top: 70px;
+}
+
+#benefits .tile .tile-div-h1-c2,
+#benefits .tile2 .tile-div-h1-c2 {
+    margin-top: 58px;
+}
+
+#benefits .tile .tile-div-h1-c3,
+#benefits .tile2 .tile-div-h1-c3 {
+    margin-top: 52px;
+}
+
+#benefits .tile .tile-div-p,
+#benefits .tile2 .tile-div-p {
+    margin-top: 20px;
+}
+
+#benefits .row .col-md-4 h1 {
+    font-size: xxx-large;
+}
+
+#benefits .row .col-md-4 p {
+    color: rgb(122, 122, 122);
+    font-size: larger;
 }
