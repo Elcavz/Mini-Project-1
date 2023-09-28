@@ -170,3 +170,179 @@
     color: rgb(122, 122, 122);
     font-size: larger;
 }
+
+#RBHY {
+    background-color: #f3f3f3;
+}
+
+#RBHY .container .grid {
+    margin: 10%;
+}
+
+#RBHY .text-center h1 {
+    font-size: 4rem;
+}
+
+#RBHY .grid .content1 h2 {
+    font-size: 2.5rem;
+}
+
+#RBHY .grid .content1 ul li {
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+#RBHY .grid .content1 ul li::before {
+    content: '✓ ';
+}
+
+hr {
+    border: 1px gray solid;
+}
+
+#HIW {
+    background-color: #f3f3f3;
+}
+
+#HIW .text-center h1 {
+    font-size: 4rem;
+}
+
+#HIW .d-flex .tile1 {
+    min-height: 400px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-color: var(--e-global-color-ad4e538);
+    background-image: url(assets/background/rbs-home-sleep-bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+}
+
+#HIW .d-flex span {
+    background: linear-gradient(270deg, #C7E4CC 14.58%, #FFCD1D 54.69%, #FB8B08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 55px;
+    line-height: 60px;
+    background-clip: text;
+}
+
+#HIW .d-flex .w-50 .my-5 h2 {
+    font-size: 2rem;
+}
+
+#HIW .d-flex .w-50 .tile1-h2,
+#HIW .d-flex .w-50 .tile2-h2,
+#HIW .d-flex .w-50 .tile3-h2,
+#HIW .d-flex .w-50 .tile4-h2 {
+    margin-top: 45px;
+}
+
+#HIW .d-flex .w-50 .tile1-p,
+#HIW .d-flex .w-50 .tile2-p,
+#HIW .d-flex .w-50 .tile3-p,
+#HIW .d-flex .w-50 .tile4-p {
+    margin-top: 15px;
+}
+
+#HIW .d-flex .w-50 .rbs-gp {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#HIW .d-flex .w-50 .rbs-gp:hover {
+    transform: scale(1.1);
+}
+
+#HIW .d-flex .w-50 .rbs-as {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#HIW .d-flex .w-50 .rbs-as:hover {
+    transform: scale(1.1);
+}
+
+#HIW .text-center h1 {
+    font-size: 4rem;
+}
+
+#HIW .d-flex .tile2 {
+    min-height: 400px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-color: var(--e-global-color-ad4e538);
+    background-image: url(assets/background/rbs-home-steps-2-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+}
+
+#HIW .d-flex .tile2-span span {
+    background: linear-gradient(89.52deg, #BCD5F7 0%, #91ABF6 71.35%, #BCDAFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 55px;
+    line-height: 60px;
+    background-clip: text;
+}
+
+#HIW .d-flex .tile3 {
+    min-height: 400px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-color: var(--e-global-color-ad4e538);
+    background-image: url(assets/background/rbs-home-steps-3-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+}
+
+#HIW .d-flex .tile3-span span {
+    background: linear-gradient(270deg, #FFA654 14.58%, #E39D6A 54.69%, #B2778B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 55px;
+    line-height: 60px;
+    background-clip: text;
+}
+
+#HIW .d-flex .tile4 {
+    min-height: 400px;
+    margin: 10px 5px 10px 5px;
+    padding: 15px 40px 45px 40px;
+    background-color: var(--e-global-color-ad4e538);
+    background-image: url(assets/background/rbs-home-steps-4-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+}
+
+#HIW .d-flex .tile4-span span {
+    background: linear-gradient(270deg, #C7E4CC 14.58%, #FFCD1D 54.69%, #FB8B08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    background-clip: text;
+}
