@@ -370,15 +370,97 @@ hr {
     margin: 30px 0 75px 0;
 }
 
-#product .d-flex .tile1 {
+#product .d-flex .tile1,
+#product .d-flex .tile3 {
     width: 33%;
+    height: 650px;
 }
 
-#product .d-flex .tile1 h1 {
+#product .d-flex .tile2 {
+    width: 33%;
+    height: 650px;
+    box-shadow: 1px 12px 100px 12px rgba(0, 0, 0, 0.050980392156862744);
+    background-color: white;
+}
+
+#product .d-flex .tile1 h1,
+#product .d-flex .tile2 h1,
+#product .d-flex .tile3 h1 {
     font-size: 3rem;
 }
 
-#product .d-flex .tile1 p {
+#product .d-flex .tile1 p,
+#product .d-flex .tile2 p,
+#product .d-flex .tile3 p {
     font-size: 1.5rem;
     color: #838383;
+}
+
+#product .d-flex .tile1 span,
+#product .d-flex .tile2 span,
+#product .d-flex .tile3 span {
+    font-size: 2rem;
+    color: black;
+}
+
+#product .d-flex .tile1 .tile1-desc,
+#product .d-flex .tile2 .tile2-desc {
+    margin-top: 50px;
+}
+
+#product .d-flex .tile3 .tile3-desc {
+    line-height: 25px;
+}
+
+#product .d-flex .product1-button,
+#product .d-flex .product2-button,
+#product .d-flex .product3-button {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+#product .d-flex .product1-button a,
+#product .d-flex .product2-button a,
+#product .d-flex .product3-button a {
+    font-size: 12px;
+    width: 110px;
+}
+
+#product .d-flex .tile1-container-btn,
+#product .d-flex .tile2-container-btn,
+#product .d-flex .tile3-container-btn {
+    height: inherit;
+}
+
+#product .d-flex .tile3 .tile3-span {
+    background: linear-gradient(270deg, #C7E4CC 14.58%, #FFCD1D 54.69%, #FB8B08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+#product .d-flex .tile3 .tile3-save-div {
+    height: 30px;
+    background: rgb(205,132,34);
+    background: linear-gradient(90deg, rgba(205,132,34,1) 0%, rgba(253,202,29,1) 62%, rgba(170,255,213,1) 100%);
+    width: 111px;
+    border-radius: 50px;
+}
+
+#product .d-flex .tile3 .tile3-save-span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#product .d-flex .tile3 .tile3-desc .text-decoration-line-through {
+    font-size: 17px;
+    color: #838383;
+    text-decoration: line-through #323232!important;
+}
+
+#product .d-flex .tile3 .tile3-desc .tile3-additional-price {
+    font-size: 12px;
 }
