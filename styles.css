@@ -465,3 +465,96 @@ hr {
 #product .d-flex .tile3 .tile3-desc .tile3-additional-price {
     font-size: 12px;
 }
+
+.product-ext {
+    background-color: #f3f3f3;
+}
+
+#ftr-section {
+    background-color: #f3f3f3;
+}
+
+#ftr-section .d-flex .ftr-section-li {
+    list-style: none;
+}
+
+#ftr-section .d-flex .ftr-section-li li {
+    font-size: 1.3rem;
+    color: #838383;
+    line-height: 40px;
+}
+
+#ftr-section .d-flex .w-50 .ftr-section-input-email {
+    border-bottom: 1px black solid;
+}
+
+#ftr-section .d-flex .w-50 input {
+    background-color: #f3f3f3;
+    border: none;
+    width: 95%;
+    font-size: 15px;
+    outline: none;
+}
+
+#ftr-section .d-flex .w-50 button {
+    border: none;
+}
+
+#ftr-section .d-flex .w-50 .fst-italic {
+    color: #838383;
+}
+
+#ftr-section .d-flex .w-50 .ftr-section-checkbox {
+    width: 35px;
+}
+
+#ftr {
+    background-color: #f3f3f3;
+}
+
+#ftr .d-flex {
+    display: flex;
+}
+
+#ftr p {
+    margin: 0!important;
+}
+
+#ftr a {
+    color: black;
+}
+
+#ftr a:hover {
+    color: #323232;
+}
+
+#ftr .d-flex .ftr-social {
+    width: 23%;
+}
+
+#ftr .d-flex .ftr-social .d-flex {
+    gap: 10px;
+}
+
+i {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+i:hover {
+    color: #838383;
+}
+
+/* End of Home Page */
+
+/* Why-RBS Start Here */
+
+#why-rbs .container-xxl .rounded-5 {
+    background-color: #f3f3f3;
+    margin-top: 85px;
+    min-height: 570px;
+}
+
+#why-rbs .container-xxl .w-50 h1 {
+    font-size: 4rem;
+}
