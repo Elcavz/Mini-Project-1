@@ -7,6 +7,10 @@
     font-family: Aeonik;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
 #home .position-fixed {
     background-color: white;
     z-index: 100;
@@ -557,4 +561,42 @@ i:hover {
 
 #why-rbs .container-xxl .w-50 h1 {
     font-size: 4rem;
+}
+
+.wr .tile1 {
+    width: 33%;
+}
+
+#theproblem-01 .d-flex .tile1,
+#theproblem-01 .d-flex .tile2,
+#theproblem-01 .d-flex .tile3 {
+    width: 33%;
+}
+
+#ourfindings-02 {
+    background-color: #f3f3f3;
+}
+
+#ourfindings-02 .container {
+    border-bottom: #c5c5c5 1px solid;
+}
+
+#ourfindings-02 .text-center .pb-5 h1 {
+    font-size: 4rem;
+}
+
+#ourfindings-02 .text-center .pb-5 span {
+    background: linear-gradient(270deg, #C7E4CC 14.58%, #FFCD1D 54.69%, #FB8B08 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#thesolution-03 .text-center .pb-5 h1 {
+    font-size: 4rem;
+}
+
+#thesolution-03 .container {
+    border-bottom: #c5c5c5 1px solid;
 }
