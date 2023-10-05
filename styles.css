@@ -11,7 +11,7 @@ body {
     background-color: #f3f3f3;
 }
 
-#home .position-fixed {
+.position-fixed {
     background-color: white;
     z-index: 100;
 }
@@ -600,3 +600,65 @@ i:hover {
 #thesolution-03 .container {
     border-bottom: #c5c5c5 1px solid;
 }
+
+/* WHY RBS Ends Here */
+
+/* FAQS Section Starts Here */
+
+#faqs .container-xxl .rounded-5 {
+    background-image: url(assets/background/faqs-bg.png);
+    background-size: 100% 100%;
+    min-height: 570px;
+    box-shadow: 12px 12px 100px 199px rgba(0, 0, 0, 0.050980392156862744);
+}
+
+#faqs .container-xxl .pb-5 h1 {
+    font-size: 5rem;
+}
+
+#faqs-section aside ul li {
+    list-style: none;
+}
+
+#faqs-section .w-25 .fs-3 a {
+    color: black;
+    width: 240px;
+    display: block;
+}
+
+#faqs-section .w-25 .faqs-aside {
+    height: 50px;
+    width: 250px;
+}
+
+#faqs-section .w-25 .faqs-aside:hover {
+    border: 1px solid #838383;
+    border-radius: 25px;
+}
+
+#faqs-section .w-75 .container h1 {
+    font-size: 3.5rem;
+}
+
+.accordion-button:focus {
+    background: none;
+    box-shadow: none;
+    color: black;
+}
+
+.accordion-button:not(:focus) {
+    background: none;
+    color: black;
+}
+
+#faqs-section .w-75 .d-flex .accordion-item a {
+    transition: all 0.4s;
+    color: black;
+}
+
+#faqs-section .w-75 .d-flex .accordion-item a:hover {
+    --bs-text-opacity: 1;
+    color: #6C757D;
+    transform: translate(1.2);
+}
+
