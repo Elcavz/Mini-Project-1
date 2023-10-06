@@ -11,13 +11,35 @@ body {
     background-color: #f3f3f3;
 }
 
+.cart-sidebar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100%;
+    background-color: #ffffff;
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+    padding: 20px;
+}
+
+.cart-open {
+    right: 0;
+}
+
+.cart-close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
 .position-fixed {
     background-color: white;
     z-index: 100;
 }
 
 .d-flex .d-flex .logo {
-    width: 20%;
     height: 50px;
 }
 
@@ -168,7 +190,7 @@ body {
 }
 
 #benefits .row .col-md-4 h1 {
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 
 #benefits .row .col-md-4 p {
@@ -636,7 +658,8 @@ i:hover {
     border-radius: 25px;
 }
 
-#faqs-section .w-75 .container h1 {
+#faqs-section .w-75 .container h1,
+#faqs-section .w-75 h1 {
     font-size: 3.5rem;
 }
 
@@ -662,3 +685,41 @@ i:hover {
     transform: translate(1.2);
 }
 
+#faqs-section .w-75 .pt-3 input {
+    height: 50px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+#faqs-section .w-75 .pt-3 textarea {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* FAQS Page Ends Here */
+
+/* BUY-RBS Starts Here */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container h1,
+.card {
+    animation: fadeIn 1s;
+}
+
+.total-cost {
+    font-weight: bold;
+}
+
+.card {
+    min-height: 416px;
+}
+
+#buy-rbs .container .card-body img {
+    height: 226px!important;
+}
+
+/* BUY-RBS Page Ends Here */

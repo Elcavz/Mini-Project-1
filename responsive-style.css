@@ -1,0 +1,298 @@
+@media screen and (max-width: 768px) {
+    #home .position-fixed .w-75 {
+        display: none!important;
+    }
+
+    .nav-button {
+        display: none!important;
+    }
+
+    #home .position-fixed {
+        justify-content:  space-between;
+    }
+
+    #home .container-xxl .container-background .container-h1 h1 {
+        font-size: 2rem!important;
+    }
+
+    #benefits .container .justify-content-center {
+        flex-direction: column;
+    }
+
+    #benefits .container .justify-content-center .col-md-4 {
+        width: 100%;
+    }
+
+    #benefits .container .benefits-div-h1 h1 {
+        font-size: 2rem!important;
+    }
+
+    #HIW .container .d-flex .tile1 .d-flex {
+        padding: 20px 0 0 0;
+    }
+
+    #HIW .container .d-flex {
+        flex-direction: column;
+    }
+
+    #HIW .container .d-flex .flex-wrap {
+        width: 100%!important;
+        flex-direction: row;
+    }
+
+    #HIW .container .d-flex .tile2,
+    #HIW .container .d-flex .tile3,
+    #HIW .container .d-flex .tile4 {
+        width: 100%!important;
+        flex-direction: row;
+    }
+
+    #HIW .container .d-flex .flex-wrap .justify-content-center {
+        width: fit-content;
+    }
+
+    #product .container .d-flex {
+        flex-direction: column;
+    }
+
+    #product .container .d-flex .tile1,
+    #product .container .d-flex .tile2,
+    #product .container .d-flex .tile3 {
+        width: 100%!important;
+    }
+
+    #ftr .container .w-100 {
+        max-width: 800px!important;
+        width: 800px!important;
+    }
+
+    #ftr .container .d-flex .mx-5 {
+        margin: 0!important;
+    }
+
+    #ftr .container .d-flex .mx-5 p {
+        font-size: 12px!important;
+    }
+
+    #ftr .container {
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    #ftr .container .d-flex .ftr-social {
+        width: 30%;
+    }
+
+    #ftr .container .d-flex .ftr-social .fs-5 {
+        font-size: 14px!important;
+    }
+
+    #fs .wr .tile1 {
+        flex-direction: column!important;
+    }
+
+    #fs .d-flex .w-100 {
+        border-bottom: 1px solid black!important;
+        border-right: 0!important;
+        padding: 5px;
+    }
+
+    #why-rbs .position-fixed .w-75 {
+        display: none!important;
+    }
+
+    #why-rbs .position-fixed {
+        justify-content:  space-between;
+    }
+
+    #theproblem-01 .container .d-flex {
+        flex-direction: column!important;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #theproblem-01 .container .d-flex .tile1,
+    #theproblem-01 .container .d-flex .tile2,
+    #theproblem-01 .container .d-flex .tile3 {
+        text-align: center;
+        width: 75%;
+    }
+
+    #ourfindings-02 .container .d-flex {
+        flex-direction: column!important;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #ourfindings-02 .container .d-flex .p-5 {
+        width: 100%!important;
+    }
+
+    #faqs .position-fixed .w-75 {
+        display: none!important;
+    }
+
+    #faqs .position-fixed {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #home .container-xxl {
+        padding: 0!important;
+    }
+
+    #home .container-xxl .container-h1 {
+        padding: 10%!important;
+    }
+
+    #home .container-xxl .container-h1 h1 {
+        font-size: calc(2rem + 1.5vw);
+    }
+
+    #home .container-xxl .container-h1 .w-50 {
+        width: 100%!important;
+    }
+
+    #RBHY .container .content1 .text-start {
+        width: 112%!important;
+        padding: 0!important;
+    }
+
+    #HIW .container .d-flex .tile1,
+    #HIW .container .d-flex .tile2 {
+        flex-direction: column!important;
+    }
+
+    #HIW .container .d-flex .tile1 .w-50,
+    #HIW .container .d-flex .tile2 .w-50 {
+        width: 100%!important;
+    }
+
+    #product {
+        padding: 0!important;
+    }
+
+    #product .container .d-flex .tile1,
+    #product .container .d-flex .tile2,
+    #product .container .d-flex .tile3 {
+        padding: 0!important;
+    }
+
+    #product .container .d-flex .tile1 .tile1-container-btn,
+    #product .container .d-flex .tile2 .tile2-container-btn,
+    #product .container .d-flex .tile3 .tile3-container-btn {
+        justify-content: flex-start!important;
+    }
+
+    .product-ext .container .p-5 {
+        flex-direction: column!important;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #ftr-section .container .d-flex {
+        flex-direction: column!important;
+    }
+
+    #ftr-section .container .d-flex .w-25 {
+        width: 100%!important;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #ftr-section .container .d-flex .rbs-logo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #ftr-section .container .d-flex .w-50 {
+        width: 100%!important;
+    }
+
+    #why-rbs .container-xxl {
+        padding: 0!important;
+    }
+
+    #why-rbs .container-xxl .rounded-5 {
+        flex-direction: column-reverse!important;
+    }
+
+    #why-rbs .container-xxl .rounded-5 .w-50 {
+        width: 100%!important;
+    }
+
+    #why-rbs .container-xxl .rounded-5 .w-50 .btn {
+        width: 100%!important;
+    }
+
+    #ourfindings-02 .container .pb-5 {
+        padding: 0!important;
+    }
+
+    #ourfindings-02 .container .pb-5 h1 {
+        font-size: 2rem!important;
+    }
+
+    #thesolution-03 .container .pb-5 h1 {
+        font-size: 2rem!important;
+    }
+
+    #thesolution-03 .container .row-cols-2 {
+        flex-direction: column!important;
+    }
+
+    #thesolution-03 .container .row-cols-2 .w-50 {
+        width: 100%!important;
+    }
+
+    .mt-5 .d-flex #hnwAccordion {
+        width: 100%!important;
+    }
+
+    #faqs-section .container .d-flex {
+        flex-direction: column!important;
+    }
+
+    #faqs-section .container .d-flex .w-25 {
+        width: 100%!important;
+    }
+
+    #faqs-section .container .d-flex .w-75 .container {
+        padding: 0!important;
+    }
+
+    #faqs-section .container .d-flex .w-75 .container h1 {
+        font-size: 2rem!important;
+    }
+
+    #faqs-section .container .d-flex .w-75 {
+        width: 100%!important;
+    }
+
+    #faqs-section .container .d-flex .w-75 h1 {
+        font-size: 2rem!important;
+    }
+
+    #faqs-section .container .d-flex .w-75 .container .float-end {
+        float: left!important;
+    }
+
+    #home .d-flex .p-4 .w-75 ul {
+        display: none!important;
+    }
+}
+  
+
+@media screen and (max-width: 1024px) {
+    .bg-tertiary .d-flex {
+        flex-direction: column!important;
+    }
+
+    .bg-tertiary .d-flex .w-100 {
+        border-bottom: 1px solid black!important;
+        border-right: 0!important;
+    }
+}

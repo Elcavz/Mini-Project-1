@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - RBS</title>
+    <link rel="icon" href="assets/logo/title-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body>
+<section id="buy-rbs">
+    <div class="w-auto">
+        <nav class="d-flex flex-row justify-content-between">
+            <div class="float-start">
+                <div class="p-4">
+                    <a href="index.html"><img src="assets/logo/logo.png" alt="" height="40px"></a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center float-end pe-5">
+                <div class="cart-logo2">
+                    <a href="#" id="cart-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="dark" class="bi bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="cart-sidebar h-75 p-5 shadow-lg rounded-bottom" id="cart">
+                <span class="cart-close fs-1" id="cart-close">&times;</span>
+                <div class="pt-5">
+                    <h4>No products in the cart.</h4>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-5">
+        <h1>Choose Your RBS</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-flex flex-column">
+                    <div class="card-body">
+                        <div class="p-4">
+                            <img class="img-fluid" src="assets/images/rbs-home-wearable.png.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="card-title">RBS Wearable</h2>
+                        <p class="card-text">Price: ₱6,499</p>
+                        <div class="form-group">
+                            <label for="item1Quantity">Quantity:</label>
+                            <input type="number" class="form-control" id="item1Quantity" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex flex-column">
+                    <div class="card-body">
+                        <div class="p-4">
+                            <img class="img-fluid" src="assets/images/rbs-home-wear-app.png.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="card-title">Wearable + App</h2>
+                        <p class="card-text">Price: ₱6,999</p>
+                        <div class="form-group">
+                            <label for="item2Quantity">Quantity:</label>
+                            <input type="number" class="form-control" id="item2Quantity" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex flex-column">
+                    <div class="card-body">
+                        <div class="p-4">
+                            <img class="img-fluid" src="assets/images/rbs-home-annual.png.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <h2 class="card-title">Wearable + App (Annual)</h2>
+                        <p class="card-text">Price: ₱8,499</p>
+                        <div class="form-group">
+                            <label for="item3Quantity">Quantity:</label>
+                            <input type="number" class="form-control" id="item3Quantity" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h4>Total Cost: <span id="totalCost">$0</span></h4>
+            <button class="btn btn-primary py-3 px-5 bg-black border-0">Buy</button>
+        </div>
+    </div>
+</section>
+
+<div class="bg-tertiary">
+    <div class="wr container">
+        <div class="tile1 d-flex flex-row justify-content-center h-auto p-5 w-100">
+            <div class="border-end border-secondary w-100">
+                <div class="d-flex flex-row justify-content-center flex-wrap align-items-center w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M20.0776 15.9721L14.9883 12.8419C14.8991 12.787 14.7994 12.7515 14.6956 12.7375L12.5563 12.4491C12.3957 12.4275 12.2324 12.4584 12.0908 12.5374C11.9492 12.6163 11.8371 12.739 11.7711 12.8871L10.4868 15.7688C10.4271 15.9028 10.408 16.0514 10.4319 16.1962C10.4558 16.3409 10.5216 16.4755 10.6212 16.5832L12.3837 18.4896C12.4636 18.576 12.522 18.6801 12.5543 18.7932C12.5865 18.9064 12.5917 19.0256 12.5693 19.1412L12.2103 20.9971" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M6.08916 5.21338L5.25064 7.19617C5.17587 7.37296 5.17174 7.57169 5.23909 7.75144L6.31635 10.6266C6.36047 10.7443 6.43347 10.8491 6.52866 10.9312C6.62384 11.0134 6.73815 11.0703 6.86108 11.0967L8.87013 11.5285C8.98161 11.5525 9.08616 11.6015 9.17583 11.672C9.2655 11.7424 9.33792 11.8323 9.3876 11.935L9.74438 12.672C9.80578 12.7989 9.90167 12.9059 10.0211 12.9807C10.1405 13.0556 10.2785 13.0953 10.4195 13.0953H11.6788" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.2945 3.29492L15.1695 4.86227C15.2522 5.01044 15.2822 5.18228 15.2547 5.34972C15.2271 5.51716 15.1436 5.6703 15.0177 5.78413L12.4948 8.06577C12.452 8.1045 12.4048 8.13815 12.3543 8.16606L11.2066 8.79984C11.0956 8.86114 10.9709 8.8933 10.8441 8.8933H8.84295C8.69538 8.8933 8.55109 8.93683 8.42814 9.01845C8.30519 9.10007 8.20906 9.21615 8.15177 9.35214L7.37109 11.2054" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    &nbsp;&nbsp;&nbsp;
+                    <h5 class="m-0">Free Shipping</h5>
+                </div>
+            </div>
+            <div class="border-end border-secondary w-100">
+                <div class="d-flex flex-row justify-content-center flex-wrap align-items-center w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7.5 11.25L3 15.75L7.5 20.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M7.5 5.25H15.75C17.1424 5.25 18.4777 5.80312 19.4623 6.78769C20.4469 7.77226 21 9.10761 21 10.5V10.5C21 11.1894 20.8642 11.8721 20.6004 12.5091C20.3365 13.1461 19.9498 13.7248 19.4623 14.2123C18.9748 14.6998 18.3961 15.0865 17.7591 15.3504C17.1221 15.6142 16.4394 15.75 15.75 15.75H3" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    &nbsp;&nbsp;&nbsp;
+                    <h5 class="m-0">60-day Money Back Guarantee</h5>
+                </div>
+            </div>
+            <div class="w-100">
+                <div class="d-flex flex-row justify-content-center flex-wrap align-items-center w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 10.75V5.25C3.75 5.05109 3.82902 4.86032 3.96967 4.71967C4.11032 4.57902 4.30109 4.5 4.5 4.5H19.5C19.6989 4.5 19.8897 4.57902 20.0303 4.71967C20.171 4.86032 20.25 5.05109 20.25 5.25V10.75C20.25 18.6264 13.5651 21.236 12.2303 21.6785C12.0811 21.7298 11.9189 21.7298 11.7697 21.6785C10.4349 21.236 3.75 18.6264 3.75 10.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M16.125 9.75L10.625 15L7.875 12.375" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    &nbsp;&nbsp;&nbsp;
+                    <h5 class="m-0">1-year International Warranty</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $("#cart-toggle").click(function() {
+            $("#cart").toggleClass("cart-open");
+        });
+
+        $("#cart-close").click(function() {
+            $("#cart").removeClass("cart-open");
+        });
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
